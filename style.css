@@ -5,15 +5,33 @@ body {
 body {
     background-color:rgba(237, 177, 245, 0.651) !important;
 }
-#banner {
-  width: 100%;
+.navbar i {
+    font-size: 1.5rem;
 }
-#banner img {
+.navbar-custom {
+    background-color: #f792c99d;
+    color: #646060;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #646060;
+}
+.navbar-custom .navbar-brand {
+    color: #646060;
+}
+#banner { 
     width: 100%;
 }
-#perfil {
+#banner img {
+    max-height: 470px;
+    width: 100%;;
+}
+#perfil {;
     width: 200px;
-    height: 200px;
+    height: 200px;;
+}
+.recuadros_items {
+    border: 5px solid #a5a1a1ce;
+    padding: 10px;
 }
 h1 { 
     color: rgb(32, 32, 32) !important;
